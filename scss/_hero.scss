@@ -1,0 +1,85 @@
+.hero{
+    background:url("../images/Rectangle\ 1.png") no-repeat,
+     url("../images/tv-cabinet-modern-living-room-with-armchair-plant-dark-marble-wall-3d-rendering\ 1.png") no-repeat;
+    
+    .hero__continer{
+       
+        padding: 120px 0 45px 0;
+        color: white;
+
+        
+
+        .arrow{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 25px;
+        }
+        
+    }
+}
+
+.hero__urta{
+    
+    text-align: center;
+    margin-left: 330px;
+
+    h1{
+        font-size: 56px;
+        font-family: "lato";
+        font-weight: 700;
+        margin-bottom: 20px;
+        max-width: 446px;
+    }
+
+    p{
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "Raleway";
+        max-width: 537px;
+        margin-bottom: 50px;
+    }
+
+    button{
+        padding: 22px 56px;
+        background-color: #AE7B3C;
+        border: none;
+        color: white;
+        font-size: 16px;
+        font-weight: 700;
+        font-family: "Raleway";
+        text-align: start;
+        margin-bottom: 120px;
+    }
+
+    
+}
+
+.arrow-2{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.aylanalar{
+    display: flex;
+    gap: 15px;
+
+
+    .aylana{
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        border: 1px solid rgba(255, 255, 255,30%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.chiziq{
+    height: 1px ;
+    width: 100%;
+    background-color: white;
+    opacity: 40%;
+}
+

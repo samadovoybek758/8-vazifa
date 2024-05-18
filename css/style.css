@@ -1,0 +1,117 @@
+.header__continer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.header__continer ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+}
+.header__continer .facebook {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.header__continer .call {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.list__item a {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-size: 16px;
+  color: #282B22;
+  font-weight: 500;
+  transition: all 1s;
+}
+.list__item a:hover {
+  color: rgb(8, 122, 18);
+}
+
+.hero {
+  background: url("../images/Rectangle 1.png") no-repeat, url("../images/tv-cabinet-modern-living-room-with-armchair-plant-dark-marble-wall-3d-rendering 1.png") no-repeat;
+}
+.hero .hero__continer {
+  padding: 120px 0 45px 0;
+  color: white;
+}
+.hero .hero__continer .arrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.hero__urta {
+  text-align: center;
+  margin-left: 330px;
+}
+.hero__urta h1 {
+  font-size: 56px;
+  font-family: "lato";
+  font-weight: 700;
+  margin-bottom: 20px;
+  max-width: 446px;
+}
+.hero__urta p {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Raleway";
+  max-width: 537px;
+  margin-bottom: 50px;
+}
+.hero__urta button {
+  padding: 22px 56px;
+  background-color: #AE7B3C;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Raleway";
+  text-align: start;
+  margin-bottom: 120px;
+}
+
+.arrow-2 {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.aylanalar {
+  display: flex;
+  gap: 15px;
+}
+.aylanalar .aylana {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chiziq {
+  height: 1px;
+  width: 100%;
+  background-color: white;
+  opacity: 40%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.continer {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */

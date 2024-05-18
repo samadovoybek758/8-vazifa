@@ -1,0 +1,43 @@
+
+.header__continer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+
+
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        list-style: none;
+    }
+
+    .facebook{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .call{
+        display: flex;
+        align-items: center;
+        gap: 7px;
+    }
+}
+.list__item{
+
+    a{
+        text-decoration: none;
+        font-family: "Raleway";
+        font-size: 16px;
+        color:#282B22;
+        font-weight: 500;
+        transition: all 1s ;
+
+        &:hover{
+            color: rgb(8, 122, 18);
+
+        }
+    }
+}
