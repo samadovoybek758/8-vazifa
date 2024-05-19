@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px 0;
+    
 
 
     ul{
@@ -24,6 +25,11 @@
         align-items: center;
         gap: 7px;
     }
+    input{
+        display: none;
+    }
+
+    
 }
 .list__item{
 

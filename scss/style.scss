@@ -15,3 +15,84 @@
     margin: 0 auto;
     width: 100%;
 }
+
+
+@media screen and (max-width:1200px) {
+    .continer{
+        max-width: 960px;
+    }
+    .card{
+        max-width: 300px;
+        
+
+        img{
+            max-width: 280px;
+            height: 320px;
+        }
+    }
+     .osnavi__card{
+         display: flex;
+         gap: 20px;
+     }
+     .gamburger{
+        display: none;
+    }
+}
+@media  screen and (max-width:992px) {
+    .continer{
+        max-width: 720px;
+    }
+    .gamburger{
+        display: none;
+    }
+}
+
+@media  screen and (max-width:768px) {
+    .continer{
+        max-width: 540px;
+    }
+    .list__item{
+        display: none;
+    }
+    .gamburger{
+        display:inline-block;
+    }
+    .osnovi__card{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 600px;
+    }
+    .card-2{
+        width: 280px;
+    }
+    .card-3{
+        width: 300px;
+    }
+    #gamburger:checked -.nav{
+            display: block;
+    }
+
+    .osnavi__card{
+        display: flex;
+        flex-direction: column;
+      
+        justify-content: left;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .continer{
+        max-width: 300px;
+        background-color: yellow;
+    }
+    .osnovi__card-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .facebook{
+        display: none;
+    }
+    .call{
+        display: none;
+    }
+}

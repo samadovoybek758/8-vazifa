@@ -1,7 +1,7 @@
 .hero{
     background:url("../images/Rectangle\ 1.png") no-repeat,
      url("../images/tv-cabinet-modern-living-room-with-armchair-plant-dark-marble-wall-3d-rendering\ 1.png") no-repeat;
-    
+    background: cover;
     .hero__continer{
        
         padding: 120px 0 45px 0;
@@ -22,7 +22,11 @@
 .hero__urta{
     
     text-align: center;
-    margin-left: 330px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     h1{
         font-size: 56px;
@@ -50,6 +54,7 @@
         font-family: "Raleway";
         text-align: start;
         margin-bottom: 120px;
+       
     }
 
     

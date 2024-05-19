@@ -16,7 +16,14 @@
         align-items: center;
         
         gap: 29px;
+
+        .osnavi__card-2{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
     }
+
 
     .card{
         width: 363px;
